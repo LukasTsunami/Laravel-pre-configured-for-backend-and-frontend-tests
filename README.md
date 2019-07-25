@@ -6,13 +6,18 @@ Sometimes having two different test DSLs (domain specific languages), it isn't s
 At this project I only configured Laravel to work on with ReactJS, and added to both, test libraries which follow the "spec" DSL: Kahlan Framework for Php Tests and Jest + Enzyme for ReactJS tests.  
   
 (Kahlan Framework for PHP Modern Tests in "spec" DSL pattern:
+<img src="https://github.com/LukasTsunami/Laravel-pre-configured-for-backend-and-frontend-tests/blob/master/public/assets/kahlan.png?raw=true" width="200" />  
 https://github.com/kahlan/kahlan  
 
 (Eloquent Phony for PHP Modern Mocks, spies and stubs.  
+<img src="https://github.com/LukasTsunami/Laravel-pre-configured-for-backend-and-frontend-tests/blob/master/public/assets/phony.png?raw=true" width="80" />  
 https://github.com/eloquent/phony  
     
 (Jest and Enzyme for React Tests) 
+<img src="https://github.com/LukasTsunami/Laravel-pre-configured-for-backend-and-frontend-tests/blob/master/public/assets/jest.png?raw=true" width="80" />  
 https://github.com/facebook/jest  
+  
+<img src="https://github.com/LukasTsunami/Laravel-pre-configured-for-backend-and-frontend-tests/blob/master/public/assets/enzyme.png" width="200" />  
 https://github.com/airbnb/enzyme  
 
 I also installed and configured the "Eloquent Phony" library for Mocks, stubs, and spies using a modern way.  
