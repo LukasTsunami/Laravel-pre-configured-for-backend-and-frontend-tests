@@ -1,4 +1,4 @@
-# laravel_basic_project
+# Laravel-pre-configured-for-backend-and-frontend-tests
 How to start a project on Laravel with tests? And if those tests are on back-end and on front-end? 
    
 Sometimes having two different test DSLs (domain specific languages), it isn't such cool too.  
@@ -16,4 +16,20 @@ https://github.com/facebook/jest
 https://github.com/airbnb/enzyme  
 
 I also installed and configured the "Eloquent Phony" library for Mocks, stubs, and spies using a modern way.  
-  
+
+## How to run the tests?
+Back-end tests: `APP_ENV=testing php artisan kahlan:run`  
+.  
+Front-end tests: `npm run tests`  
+.
+## Where can you find the React.js components?
+At folder resources/js/components
+
+## Where can you find the React.js tests?
+At tests/frontend folder
+
+## Where can you find the PHP tests?
+You need to create a specs folder on root path of project  
+### How could I use the tests/backend/specs folder in order to run tests inside it a best organized way?  
+After running a "composer install", command for downloading the project dependencies, you need to replace the files inside "vendor/Kahlan/kahlan/src/Cli/Kahlan.php" with the file inside "ToReplaceOnVendor/Kahlan/Kahlan.php"   
+
